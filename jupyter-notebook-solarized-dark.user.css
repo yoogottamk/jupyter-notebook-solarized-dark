@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Jupyter Notebook Solarized Dark
 @namespace   yoogottamk
-@version     0.1.1
+@version     0.1.2
 @homepageURL https://github.com/yoogottamk/jupyter-notebook-solarized-dark
 @updateURL   https://raw.githubusercontent.com/YoogottamK/jupyter-notebook-solarized-dark/master/jupyter-notebook-solarized-dark.user.css
 @author      yoogottamk
@@ -111,6 +111,10 @@
 
     .cm-header {
         color: var(--base1) !important;
+    }
+
+    .rendered_html {
+        color: var(--base0) !important;
     }
 
 }
