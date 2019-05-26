@@ -28,141 +28,167 @@
  * TODO: add proper comments and organize the code
  */
 @-moz-document regexp("(https?://)?localhost:8888/(notebooks|edit)/.*") {
-    
+
     html {
         caret-color: var(--red) !important;
     }
-    
+
     #notebook,
     #texteditor-backdrop,
     .CodeMirror-scroll {
         background-color: var(--base03) !important;
     }
-    
+
     #notebook-container {
         background-color: var(--base02) !important;
     }
-    
+
     .CodeMirror-gutter.CodeMirror-linenumbers {
         background-color: var(--base02) !important;
         color: var(--base1) !important;
     }
-    
+
     .prompt.input_prompt {
         color: var(--base1) !important;
     }
-    
+
     .CodeMirror-lines {
         background-color: var(--base03) !important;
         color: var(--base0);
     }
-    
+
     .cm-keyword {
         color: var(--green) !important;
     }
-    
+
     .cm-builtin {
         color: var(--blue) !important;
     }
-    
+
     .cm-variable,
     .cm-variable-2 {
         color: var(--base0) !important;
     }
-    
+
     .cm-def {
         color: var(--blue) !important;
     }
-    
+
     .cm-string,
     .cm-comment {
         color: var(--cyan) !important;
     }
-    
+
     .cm-operator {
         color: var(--base1) !important;
     }
-    
+
     .cm-number {
         color: var(--cyan) !important;
     }
-    
+
+    .ansi-red-fg {
+        color: var(--red) !important;
+    }
+
+    .ansi-green-fg {
+        color: var(--green) !important;
+    }
+
+    .ansi-cyan-fg {
+        color: var(--cyan) !important;
+    }
+
+    .output_subarea pre {
+        color: var(--base1) !important;
+    }
+
+    .modal-content {
+        background-color: var(--base03) !important;
+        color: var(--base0) !important;
+    }
+
 }
 
 @-moz-document regexp("(https?://)?localhost:8888/tree.*") {
-    
+
     #site,
     #notebook_list_header,
     .dropdown-menu,
     .panel-heading {
         background-color: var(--base03) !important;
         color: var(--base0) !important;
-    } 
-    
+    }
+
     #site .btn {
         background-color: var(--base02) !important;
         color: var(--base0) !important;
         border: none !important;
     }
-    
+
     .col-md-12,
     #terminal_list_header {
         background-color: var(--base03) !important;
     }
-    
+
     .col-md-12 a {
         color: var(--blue) !important;
     }
-    
+
     .col-md-12 a:hover {
         color: var(--cyan) !important;
     }
-    
+
     .list_container {
         border: 1px solid var(--base01) !important;
     }
-    
+
     .col-md-12:hover {
         background-color: var(--base02) !important;
         color: var(--base0) !important;
     }
-    
+
     li.active a {
         background-color: var(--base02) !important;
         color: var(--blue) !important;
     }
-    
+
     .nav.nav-tabs {
         border: none !important;
     }
-    
+
     li a:hover {
         background-color: var(--base02) !important;
         color: var(--cyan) !important;
     }
-    
+
     .dropdown-menu li a {
         color: var(--base1) !important;
     }
-    
+
     .dropdown-menu li a:hover {
         background-color: var(--base02) !important;
     }
-    
+
     .dropdown-header:hover {
         background-color: var(--base03) !important;
     }
-    
+
     .panel-heading a:hover {
         color: var(--cyan) !important;
     }
-    
+
+    .modal-content {
+        background-color: var(--base03) !important;
+        color: var(--base0) !important;
+    }
+
 }
 
 @-moz-document regexp("(https?://)?localhost:8888/view.*") {
-    
+
     html {
         background-color: var(--base03) !important;
     }
-    
+
 }
