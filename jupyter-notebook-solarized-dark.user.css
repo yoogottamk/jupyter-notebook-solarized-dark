@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Jupyter Notebook Solarized Dark
 @namespace   yoogottamk
-@version     0.1.3
+@version     0.2.0
 @homepageURL https://github.com/yoogottamk/jupyter-notebook-solarized-dark
 @updateURL   https://raw.githubusercontent.com/YoogottamK/jupyter-notebook-solarized-dark/master/jupyter-notebook-solarized-dark.user.css
 @author      yoogottamk
@@ -28,7 +28,7 @@
 /*
  * TODO: add proper comments and organize the code
  */
-@-moz-document regexp("(https?://)?localhost:8888/(notebooks|edit)/.*") {
+@-moz-document regexp("(https?://)?localhost:8888/(notebooks|edit|lab).*") {
 
     html {
         caret-color: var(--red) !important;
@@ -49,7 +49,8 @@
         color: var(--base1) !important;
     }
 
-    .prompt.input_prompt {
+    .prompt.input_prompt,
+    .jp-InputPrompt {
         color: var(--base1) !important;
     }
 
@@ -113,8 +114,17 @@
         color: var(--base1) !important;
     }
 
-    .rendered_html {
+    .rendered_html,
+    .jp-RenderedHTMLCommon {
         color: var(--base1) !important;
+    }
+
+    .jp-Notebook {
+        background-color: var(--base03) !important;
+    }
+
+    .jp-InputPrompt {
+        background-color: var(--base02) !important;
     }
 
 }
@@ -201,3 +211,4 @@
     }
 
 }
+
