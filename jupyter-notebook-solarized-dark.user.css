@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Jupyter Notebook Solarized Dark
 @namespace   yoogottamk
-@version     0.2.0
+@version     0.2.1
 @homepageURL https://github.com/yoogottamk/jupyter-notebook-solarized-dark
 @updateURL   https://raw.githubusercontent.com/YoogottamK/jupyter-notebook-solarized-dark/master/jupyter-notebook-solarized-dark.user.css
 @author      yoogottamk
@@ -125,6 +125,12 @@
 
     .jp-InputPrompt {
         background-color: var(--base02) !important;
+    }
+
+    .jp-OutputArea-output,
+    .jp-OutputArea-prompt {
+        background-color: var(--base02)!important;
+        padding: 1rem 0 !important;
     }
 
 }
