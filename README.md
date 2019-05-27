@@ -5,6 +5,9 @@ Solarized dark theme for Jupyter Notebook
 ![](./preview/tree_view.png)
 ![](./preview/open_file.png)
 
+### JupyterLab notebook cells
+![](./preview/jplab_open_file.png)
+
 ## Installation
 You can Install [Stylus](https://add0n.com/stylus.html) for either Firefox, Chrome or Opera and then [install the usercss](https://raw.githubusercontent.com/YoogottamK/jupyter-notebook-solarized-dark/master/jupyter-notebook-solarized-dark.user.css).
 
